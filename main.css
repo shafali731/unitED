@@ -1,4 +1,21 @@
 .navbar a{
- float:right;
+ float:right; 
  padding: 12px;  
+ text-align: center; 
 }
+#logo{
+	width: 7%; 
+	height: 7%;
+/*	position: absolute; */
+}
+
+  .tabs {
+  /*	margin-top: -75px; 
+  	margin-left: 1100px; */
+  margin-left: 75%;
+  margin-top: -5%;
+  }
+
+ body{
+  	color: blue; 
+  }
