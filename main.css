@@ -1,21 +1,45 @@
 .navbar a{
- float:right; 
- padding: 12px;  
- text-align: center; 
+ float:right;
+ padding: 12px;
+ text-align: center;
 }
 #logo{
-	width: 7%; 
+	width: 7%;
 	height: 7%;
+  margin-top: -2%
 /*	position: absolute; */
 }
 
   .tabs {
-  /*	margin-top: -75px; 
+  /*	margin-top: -75px;
   	margin-left: 1100px; */
-  margin-left: 75%;
-  margin-top: -5%;
+  margin-left: 70%;
+  margin-top: -6%;
   }
 
  body{
-  	color: blue; 
+  	background-color: green;
   }
+
+  .nav-item{
+    color: green;
+  }
+
+  #bar{
+  /*  background-color: #32beff; */
+  }
+#book{
+  width: 100%;
+  margin-left: 0%;
+  margin-top: -2%;
+  position: relative;
+  height: auto;
+
+}
+
+#the{
+  background-color: white;
+  height: auto;
+  margin-bottom: 10px;
+  padding: 28px;
+}
