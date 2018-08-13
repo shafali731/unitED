@@ -7,14 +7,15 @@
 </head>
 
 <body style="background-color:#b9b7ff;">
-<div id= "the" style="background-color:white;>
+<div id="the" style="background-color:white">
   <a href= "index.html"> <img src= "logo_real.png" id= "logo"> </a>
   <!-- <div class="navbar">
   	<div class="navbar">
-  <a class="active" href="#"><i class="home"></i> Home</a>
-  <a href="parents.html"><i class="parents"></i> Parents</a>
-  <a href="students.html"><i class="students"></i> Students</a>
-  <a href="mentors.html"><i class="mentors"></i> Mentors</a>
+      <a class="active" href="#"><i class="home"></i> Home</a>
+      <a href="parents.html"><i class="parents"></i> Parents</a>
+      <a href="students.html"><i class="students"></i> Students</a>
+      <a href="mentors.html"><i class="mentors"></i> Mentors</a>
+      <a href="who.html"><i class="who"></i> Who We Are</a>
     <img src= "logo_real.png" id= "logo">
  </div>
  </div> -->
@@ -22,6 +23,9 @@
 <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
   <li class="nav-item">
     <a href= "index.html" class="nav-link" id="pills-home-tab" data-toggle="pill" role="tab" aria-controls="pills-home" aria-selected="false">Home</a>
+  </li>
+  <li class="nav-item">
+    <a href = "who.html" class="nav-link" id="pills-contact-tab" data-toggle="pill" role="tab" aria-controls="pills-contact" aria-selected="false">Who We Are</a>
   </li>
   <li class="nav-item">
     <a href = "students.html" class="nav-link active" id="pills-profile-tab" data-toggle="pill" role="tab" aria-controls="pills-profile" aria-selected="true">Students</a>
@@ -40,5 +44,43 @@
 </div>
 </div>
 </div>
+          <div class="row">
+          <div class="callout small">
+  <form action="login.py" method="POST">
+          <div class="medium-6 columns">
+           <label>Username
+            <input type="text" name="user" placeholder="Enter username..." required>
+          </label>
+          </div>
+          <div class="medium-6 columns">
+          <label>Password
+            <input type="password" name="pass" placeholder="Enter password..." required>
+          </label>
+        </div>
+        <button  class="button" type="submit" name="status" value="login" align="center"> Login </button>
+        </form>
+        </div>
+          </div>
+          <div class="row">
+          <div class="callout small">
+
+          <form action="create.py" method="POST">
+          <div class="medium-6 columns">
+           <label>Username
+            <input type="text" name="user" placeholder="Enter username..." required>
+          </label>
+          </div>
+          <div class="medium-6 columns">
+          <label>Password
+            <input type="password" name="pass" placeholder="Enter password..." required>
+          </label>
+        </div>
+            <label>Password Again:
+            <input type="password" name="pass2" placeholder="Enter password again..." required>
+          </label>
+        <button  class="button" type="submit" name="status" value="login" align="center"> Register </button>
+        </form>
+          </div>
+          </div>
 </body>
 </html>
